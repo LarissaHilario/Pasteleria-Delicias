@@ -1,0 +1,15 @@
+.btn {
+    display: inline-block;
+    padding: 0.9rem 1.9rem;
+    color: #fff !important;
+    background-color: #c4a4ea;
+    border-radius: 16px;
+    text-transform: capitalize;
+    transition: 0.3s;
+  }
+  
+  .btn:hover {
+    background-color: #eeaef5;
+    transform: scale(1) !important;
+  }
+  
