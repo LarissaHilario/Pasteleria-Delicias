@@ -1,9 +1,11 @@
-.right-container{
-    margin-left: 11%;
-    padding-left: 100px;
+
+.containerSells{ 
     display: flex; 
     flex-wrap: wrap;
+    margin-left: 15%;
+    margin-right: 15%;
     align-items: center;
+    justify-content: center;
    }
 
    .subtitle{
@@ -21,3 +23,17 @@
     margin-left: 500px;
     margin-right: 500px;
    }
+
+   
+@media screen and (max-width: 870px) {
+
+    .subtitle {
+        font-size: 1.5rem;
+      }
+    
+      .text1 {
+        font-size: 0.95rem;
+        margin: 1.4rem 0 1.5rem;
+      }
+
+}

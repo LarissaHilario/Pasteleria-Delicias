@@ -1,30 +1,25 @@
 import Card from "./Card"
-import cake from "../assets/images/cake2.png"
-import donuts from "../assets/images/donuts.png"
-import cake3 from "../assets/images/weedingCake.png"
-import cake2 from "../assets/images/birthday-cake.png"
-import cupcake from "../assets/images/cupcake.png"
-import bread from "../assets/images/bread.png"
+import "../assets/styles/cards.css";
 
-function Cards(){
+function Cards() {
+    return(
+        <div>
+        <h2 className="subtitle">Productos</h2>
+        <p className="text1">Tenemos para ti una gran variedad de pasteles, postres y panadería, da click en la categoría de tu elección..</p>
     <div className="right-container">
-       
-        <div className="row">
-            <div className="column">
-                 <Card title={"todos los pasteles"} image={cake}/>
-            </div>
-            <div className="column">
-                <Card title={"Pasteles de boda"} image={cake3} />
-            </div>
 
-        </div>
-   
-    
-    <Card title={"Pasteles de cumpleaños"} image={cake2} />
-    <Card title={"Cupcakes"} image={cupcake} />
-    <Card title={"Pan"}  image={bread}/>
-    <Card title={"Donas"} image={donuts}/>
-   </div>
+        <Card title={"Todos los pasteles"} image={'/images/cake3.png/'}/>
+        <Card title={"Pasteles de boda"} image={'/images/weedingCake1.png'} />
+        <Card title={"Pasteles de cumpleaños"} image={'/images/birthday-cake.png'} />
+        <Card title={"Cupcakes"} image={'/images/cupcake2.png'} />
+        <Card title={"Pan"} image={'/images/bread1.png'} />
+        <Card title={"Donas"} image={'/images/donuts2.png'} />
+        <Card title={"Galletas"} image={'/images/cookies1.png'} />
+        <Card title={"Tartas"} image={'/images/tarta2.png'}/>
+</div>
+    </div>
+    )
+
 }
 
 export default Cards;

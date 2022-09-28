@@ -36,6 +36,7 @@ a {
   display: none;
 }
 
+
 .btn {
   display: inline-block;
   padding: 0.9rem 1.9rem;
@@ -77,14 +78,27 @@ a {
   max-width: 600px;
   line-height: 2.3;
 }
-.texto {
-    color: #4d3c36;
-    font-size: 1.1rem;
-    margin: 3rem 0 2.5rem;
-    max-width: 600px;
-    line-height: 2.3;
-    text-align: center;
-  }
 .showcase-area .btn {
   box-shadow: 0 0 40px 2px rgba(0, 0, 0, 0.05);
+}
+
+@media screen and (max-width: 870px) {
+
+  
+  .title {
+    font-size: 5rem;
+  }
+
+  .text {
+    font-size: 0.95rem;
+    margin: 1.4rem 0 1.5rem;
+  }
+
+  .cake {
+    width: 100%;
+    transform: translate(15px);
+  }
+  .btn{
+    padding: 0.4rem 1rem;
+  }
 }

@@ -1,4 +1,4 @@
-import cake from "../assets/images/cake2.png"
+
 import "../assets/styles/Main.css"
 function Main(){
     return(
@@ -17,7 +17,7 @@ function Main(){
             </div>
           </div>
             <div className="right">
-            <img src={cake} className="cake"/>
+            <img src={'/images/cake2.png'} className="cake"/>
           </div>
            </div>  
            </div>

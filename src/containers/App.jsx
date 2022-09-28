@@ -3,18 +3,19 @@ import Main from "../components/Main";
 import Footer from "../components/Footer";
 import Cards from "../components/Cards";
 import Layout from "./Layout"
+import Sells from "../components/Sells";
 
 function App() {
     return (
         <>
            <Layout>
-            <Main></Main>
-            <br></br> 
-           
-            <Products>
-            </Products> 
+             <Main></Main>
+             <Products>
+                <Cards></Cards>
+                <Sells></Sells>
+             </Products>
             </Layout>
-           </>
+        </>
      )
 }
 

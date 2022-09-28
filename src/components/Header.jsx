@@ -1,4 +1,4 @@
-import logo from '../assets/images/logo.png'
+
 import '../assets/styles/header.css'
 
 function Header() {
@@ -6,8 +6,8 @@ function Header() {
     <header>
         <div className="container">
                 <div className="logo">
-                <a href=''><img src={logo} alt='logo'/></a>
-                <a href=''> <h3>Pastelería Delicias</h3></a>
+                <a href=''><img src={"/images/logo.png"} alt='logo'/></a>
+                <a href=''> <h3 >Pastelería Delicias</h3></a>
                 </div>
                 <div className="links">
                   <ul>

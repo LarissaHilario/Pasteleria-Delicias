@@ -1,4 +1,5 @@
 import "../assets/styles/Card.css"
+
 function Card({title,image}) {
     return (
         <div className="card">

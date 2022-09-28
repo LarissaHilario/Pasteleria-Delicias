@@ -1,4 +1,4 @@
-.card {
+.sell {
     width: 300px;
     height: 300px;
     display: flex;
@@ -11,11 +11,11 @@
     margin: 10px;
     align-items: center;
     align-content: center;
-    background-color: rgba(235, 145, 243, 0.74);
+    background-color: rgba(230, 228, 123, 0.74);
     align-items: center;
 }
 
-.image{
+.img{
   max-width: 100%;
   height: auto;
   object-fit: cover;
@@ -27,25 +27,27 @@
   bottom: 0;
   opacity: 60%;
 }
-.card:hover .card {
-  opacity: 3;
-  transform: scale(1);
-}
-.card img {
+
+.sell:hover .sell {
+    opacity: 3;
+    transform: scale(1);
+  }
+
+.sell img {
   object-fit: cover;
   transition: transform .8s ease;
   
 }
 
-.card:hover img {
+.sell:hover img {
   transform: scale(1.1);
 }
-.card img{
+.sell img{
   transition: transform .8s ease;
   width: 100vh;
 }
 
-.card-top {
+.card-body {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -55,7 +57,7 @@
 }
 
 
-.card-top h2 {
+.card-body .name{
   position: absolute;
   top: 50%;
   left: 50%;
@@ -63,7 +65,19 @@
   font-weight: bold;
   font-size: 2rem;
   text-align: center;
-  color: rgb(255, 255, 255);
+  color: rgb(243, 243, 243);
+  font-family: 'Montserrat', sans-serif;
+}
+
+.card-body .price{
+  position: absolute;
+  top: 200px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: bold;
+  font-size: 1rem;
+  text-align: center;
+  color: rgb(117, 109, 109);
   font-family: 'Montserrat', sans-serif;
 }
 
